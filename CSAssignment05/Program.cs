@@ -77,6 +77,23 @@
         //}
         #endregion
 
+        #region Q5.Functions IsPrime
+
+        //public static bool IsPrime(int number)
+        //{
+        //    if (number <= 1)
+        //        return false;
+
+        //    for (int i = 2; i <= Math.Sqrt(number); i++)
+        //    {
+        //        if (number % i == 0)
+        //            return false;
+        //    }
+        //    return true;
+        //}
+
+        #endregion
+
         #endregion
 
         static void Main(string[] args)
@@ -149,6 +166,21 @@
             //int Number = int.Parse(Console.ReadLine());
             //Console.Clear();
             //Console.WriteLine($"The sum of the digits of the number {Number} is {Num(Number)} ");
+            #endregion
+
+            #region 5-Create a function named "IsPrime", which receives an integer number and retuns true if it is prime, or false if it is not
+            //Console.Write("Enter Number : ");
+            //bool Flag = int.TryParse(Console.ReadLine(), out int Num);
+            //if (Flag) 
+            //{
+            //    if (IsPrime(Num))
+            //    {
+            //        Console.WriteLine("True");
+            //    } else 
+            //    {
+            //        Console.WriteLine("False");
+            //    }
+            //}
             #endregion
         }
     }
