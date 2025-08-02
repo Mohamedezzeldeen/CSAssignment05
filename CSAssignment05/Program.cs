@@ -67,6 +67,16 @@
         //}
         #endregion
 
+        #region Q4.Functions
+        //public static int Num(int Num0) 
+        //{
+        //    int FNum0 = Num0 / 10;
+        //    int SNum0 = Num0 % 10;
+        //    int Sum = FNum0 + SNum0;
+        //    return Sum;
+        //}
+        #endregion
+
         #endregion
 
         static void Main(string[] args)
@@ -127,9 +137,18 @@
             //SUMSUB(B, A, out int sumResult, out int subResult);
             //Console.WriteLine(sumResult);
             //Console.WriteLine(subResult);
-           
 
 
+
+            #endregion
+
+            #region 4-Write a program in C# Sharp to create a function to calculate the sum of the individual digits of a given number.
+            //Console.WriteLine(82/10);
+            //Console.WriteLine(82%10);
+            //Console.Write("Enter First Num : ");
+            //int Number = int.Parse(Console.ReadLine());
+            //Console.Clear();
+            //Console.WriteLine($"The sum of the digits of the number {Number} is {Num(Number)} ");
             #endregion
         }
     }
