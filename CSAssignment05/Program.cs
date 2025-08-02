@@ -59,6 +59,13 @@
 
         #endregion
 
+        #region Q3.Functions
+        //public static void SUMSUB(int Num1, int Num2, out int Sum, out int Sub ) 
+        //{
+        //    Sum = Num1 + Num2;
+        //    Sub = Num1 - Num2;
+        //}
+        #endregion
 
         #endregion
 
@@ -112,7 +119,18 @@
             //Here we find that The Original Array Changed
             #endregion
 
-            
+            #region 3-Write a c# Function that accept 4 parameters from user and return result of summation and subtracting of two numbers
+            //Console.Write("Enter the first number: ");
+            //int A = Convert.ToInt32(Console.ReadLine());
+            //Console.Write("Enter the second number: ");
+            //int B = Convert.ToInt32(Console.ReadLine());
+            //SUMSUB(B, A, out int sumResult, out int subResult);
+            //Console.WriteLine(sumResult);
+            //Console.WriteLine(subResult);
+           
+
+
+            #endregion
         }
     }
 }
