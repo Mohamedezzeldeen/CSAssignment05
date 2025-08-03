@@ -113,6 +113,18 @@
         //}
         #endregion
 
+        #region Q7.Function
+        //public static int iterativeFun(int Num)
+        //{
+        //    int Box = 1;
+        //    for (int i = Num; i >= 1; i--)
+        //    {
+        //        Box *= i;
+        //    }
+        //    return Box;
+        //}
+        #endregion
+
         #endregion
 
         static void Main(string[] args)
@@ -208,6 +220,23 @@
             //Console.WriteLine(MinNum);
             //Console.WriteLine(MaxNum);
             #endregion
+
+            #region 7-Create an iterative (non-recursive) function to calculate the factorial of the number specified as parameter
+            //Console.Write("Enter Number : ");
+
+            //bool Flag = int.TryParse(Console.ReadLine(), out int Num);
+
+            //if (Flag) 
+            //{
+            //    Console.Clear();
+            //    Console.WriteLine(iterativeFun(Num));
+            //}
+
+
+
+            #endregion
+
+
         }
     }
 }
