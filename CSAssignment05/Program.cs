@@ -94,6 +94,25 @@
 
         #endregion
 
+        #region Q6.Functions
+        //public static void MinMaxArray(int[] Num,out int Min,out int Max) 
+        //{
+        //    Min = Num[0]; Max = Num[0];
+        //    for (int i = 0; i < Num.Length; i++)
+        //    {
+        //        if (Num[i] > Max ) 
+        //        {
+        //            Max = Num[i];
+        //        }
+        //        if ( Num[i] < Min ) 
+        //        {
+        //            Min = Num[i];
+        //        }
+        //    }
+
+        //}
+        #endregion
+
         #endregion
 
         static void Main(string[] args)
@@ -181,6 +200,13 @@
             //        Console.WriteLine("False");
             //    }
             //}
+            #endregion
+
+            #region 6-Create a function named MinMaxArray, to return the minimum and maximum values stored in an array, using reference parameters
+            //int[] Numbers = new int[] { 1, 2, 1 };
+            //MinMaxArray(Numbers,out int MinNum,out int MaxNum);
+            //Console.WriteLine(MinNum);
+            //Console.WriteLine(MaxNum);
             #endregion
         }
     }
