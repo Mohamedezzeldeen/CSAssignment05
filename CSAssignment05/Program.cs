@@ -1,4 +1,6 @@
-﻿namespace CSAssignment05
+﻿using System.Xml.Linq;
+
+namespace CSAssignment05
 {
     internal class Program
     {
@@ -125,6 +127,27 @@
         //}
         #endregion
 
+        #region Q8.Function
+        //public static string ChangeChar(string Name, int Num, string NewChar)
+        //{
+        //    string Box = "";
+
+        //    for (int i = 0; i < Name.Length; i++) 
+        //    {
+        //        if(i == Num) 
+        //        {
+        //            Box += NewChar;
+        //        }
+        //        else
+        //        {
+        //            Box += Name[i];
+        //        }
+                
+        //    }
+        //    return Box;
+        //}
+        #endregion
+
         #endregion
 
         static void Main(string[] args)
@@ -236,7 +259,28 @@
 
             #endregion
 
+            #region 8-Create a function named "ChangeChar" to modify a letter in a certain position (0 based) of a string, replacing it with a different letter
+            //string Name;
+            //int Number;
+            //string Character;
+            //bool Flag;
+            //do
+            //{
+            //    Console.Write("Enter String : ");
+            //    Name = Console.ReadLine();
+            //    if (string.IsNullOrEmpty(Name)) 
+            //    {
+            //        Flag = false;
+            //    }
+            //    Console.Write("Enter Number : ");
+            //    Flag = int.TryParse(Console.ReadLine(), out Number);
+            //    Console.Write("Enter New char : ");
+            //    Character = Console.ReadLine();
+            //}
+            //while (Character.Length > 1 || !Flag );
 
+            //Console.WriteLine(ChangeChar(Name,Number,Character));
+            #endregion
         }
     }
 }
